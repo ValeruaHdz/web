@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #7f81ae, #8ffbf6); /* Fondo degradado */
+    /* O puedes usar una imagen de fondo */
+    /* background: url('tu-imagen.jpg') no-repeat center center fixed; */
+    /* background-size: cover; */
+}
+
+header {
+    background: #333; /* Fondo semitransparente */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px; /* Define el ancho máximo del main */
+    width: 100%; /* Se asegura que ocupe el 100% dentro de su contenedor hasta el max-width */
+    padding: 2rem;
+    margin: 2rem auto; /* Centra el main horizontalmente */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.container {
+    max-width: 800px; /* Define el ancho máximo del contenedor */
+    width: 100%;
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
